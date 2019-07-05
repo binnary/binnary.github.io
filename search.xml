@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>uClinux裁剪、编译、移植</title>
+      <link href="/2019/1TF1ND9/uClinux%E8%A3%81%E5%89%AA%E3%80%81%E7%BC%96%E8%AF%91%E3%80%81%E7%A7%BB%E6%A4%8D.html"/>
+      <url>/2019/1TF1ND9/uClinux%E8%A3%81%E5%89%AA%E3%80%81%E7%BC%96%E8%AF%91%E3%80%81%E7%A7%BB%E6%A4%8D.html</url>
+      
+        <content type="html"><![CDATA[<p>uClinux Cortex-M3平台移植<br>裁剪掉不必要的功能，目前最小可以编译成500KByte左右，仅仅保留串口调试、procfs, sysfs,系统调度，内存分配等操作系统必要的系统</p><a id="more"></a>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+            <tag> uClinux </tag>
+            
+            <tag> 编译 </tag>
+            
+            <tag> 移植 </tag>
+            
+            <tag> Cortex-M3 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>QT在ucCinux下编译</title>
+      <link href="/2019/2AVHN9F/QT%E5%9C%A8uclinux%E4%B8%8B%E7%BC%96%E8%AF%91.html"/>
+      <url>/2019/2AVHN9F/QT%E5%9C%A8uclinux%E4%B8%8B%E7%BC%96%E8%AF%91.html</url>
+      
+        <content type="html"><![CDATA[<p>基于qt-everywhere-src-5.10.0.tar.xz编译，<br>目标平台ARM Cortex-M系列，不带MMU，内存/存储空间小，需要尽可能裁剪程序<br>首先配置编译器配置，这里采用buildroot自建编译器进行QT编译</p><p>新建mkspecs/devices配置文件，编译器使用uClinux生成编译器</p><a id="more"></a><p>Qtplugin编译缺失</p><p>uClinux仅仅支持程序静态链接，无法使用动态库，编译时必须使用静态编译Qt相关依赖库以及文件</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Qt </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> QT </tag>
+            
+            <tag> Linux </tag>
+            
+            <tag> uClinux </tag>
+            
+            <tag> Qt </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Buildroot构建</title>
+      <link href="/2019/2R6E8KH/buildroot%E6%9E%84%E5%BB%BA.html"/>
+      <url>/2019/2R6E8KH/buildroot%E6%9E%84%E5%BB%BA.html</url>
+      
+        <content type="html"><![CDATA[<p>buildroot构建用于uclinux编译的编译器</p><a id="more"></a>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+          <category> Qt </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> buildroot </tag>
+            
+            <tag> uclinux </tag>
+            
+            <tag> Qt </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2019/16107/hello-world.html"/>
+      <url>/2019/16107/hello-world.html</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><a id="more"></a><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> CC1 </tag>
+            
+            <tag> CC2 </tag>
+            
+            <tag> CC3 </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Ccc</title>
+      <link href="/2019/51096/ccc.html"/>
+      <url>/2019/51096/ccc.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="这是测试测试测试"><a href="#这是测试测试测试" class="headerlink" title="这是测试测试测试"></a>这是测试测试测试</h3><a id="more"></a><h2 id="这是测试测试测试-1"><a href="#这是测试测试测试-1" class="headerlink" title="这是测试测试测试"></a>这是测试测试测试</h2><h2 id="这是测试测试测试-2"><a href="#这是测试测试测试-2" class="headerlink" title="这是测试测试测试"></a>这是测试测试测试</h2><h2 id="这是测试测试测试-3"><a href="#这是测试测试测试-3" class="headerlink" title="这是测试测试测试"></a>这是测试测试测试</h2><h2 id="这是测试测试测试-4"><a href="#这是测试测试测试-4" class="headerlink" title="这是测试测试测试"></a>这是测试测试测试</h2><h2 id="这是测试测试测试-5"><a href="#这是测试测试测试-5" class="headerlink" title="这是测试测试测试"></a>这是测试测试测试</h2><h2 id="这是测试测试测试-6"><a href="#这是测试测试测试-6" class="headerlink" title="这是测试测试测试"></a>这是测试测试测试</h2><h2 id="这是测试测试测试-7"><a href="#这是测试测试测试-7" class="headerlink" title="这是测试测试测试"></a>这是测试测试测试</h2><h2 id="这是测试测试测试-8"><a href="#这是测试测试测试-8" class="headerlink" title="这是测试测试测试"></a>这是测试测试测试</h2><h2 id="这是测试测试测试-9"><a href="#这是测试测试测试-9" class="headerlink" title="这是测试测试测试"></a>这是测试测试测试</h2><h2 id="这是测试测试测试-10"><a href="#这是测试测试测试-10" class="headerlink" title="这是测试测试测试"></a>这是测试测试测试</h2><h3 id="这是测试测试测试-11"><a href="#这是测试测试测试-11" class="headerlink" title="这是测试测试测试"></a>这是测试测试测试</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> CC1 </tag>
+            
+            <tag> CC2 </tag>
+            
+            <tag> CC3 </tag>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
